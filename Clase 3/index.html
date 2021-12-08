@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <style>
+        section {
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+            color: peru;
+            font-size: 20px;
+        }
+        a:hover {
+            color: powderblue;
+        }
+         article {
+             padding: 20px;
+             display: inline-block;
+         }
+    </style>
+    <header>
+        <h1>NucbersCinema</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Nostros</a>
+            <a href="">Precios</a>
+        </nav>
+        <section>
+            <h2>Busca tu pelicula</h2>
+            <article>
+              <h3>Por año:</h3>
+                <label for=""><input type="radio" name="year" id="">2017</label>
+                <label for=""><input type="radio" name="year" id="">2018</label>
+                <label for=""><input type="radio" name="year" id="">2019</label>
+                <label for=""><input type="radio" name="year" id="">2020</label>
+            </article>
+
+            <article>
+                <h3>Por Nombre:</h3>
+                <input type="text" name="Busqueda" id="" placeholder="Busqueda..">
+              </article>
+
+              <article>
+                <h3>Por Genero:</h3>
+                <select name="" id="miGenero">
+                    <option value="1">Accion</option>
+                    <option value="2">Ciencia ficcion</option>
+                    <option value="3">Comedia</option>
+                    <option value="4">Terror</option>
+                </select>
+              </article>
+        </section>
+        <section>
+            <h2>Agregadas recientemente</h2>
+            <article>
+                <h3>deadpool 2</h3>
+                <a href="">
+                    <img src="./img/deadpool.jpg" alt="">
+                </a>
+                <ul>
+                    <li>Año:2021</li>
+                    <li>Genero: Accion</li>
+                    <li>Puntuacion: 4.8 estrellas</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Avengers: endgame</h3>
+                <a href="">
+                    <img src="./img/avengers.jpg" alt="">
+                </a>
+                <ul>
+                    <li>Año:2020</li>
+                    <li>Genero: Accion</li>
+                    <li>Puntuacion: 5.0 estrellas</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Antman</h3>
+                <a href="">
+                    <img src="./img/antman.jpg" alt="">
+                </a>
+                <ul>
+                    <li>Año:2019</li>
+                    <li>Genero: Accion</li>
+                    <li>Puntuacion: 4.2 estrellas</li>
+                </ul>
+            </article>
+        </section>
+    </header>
+</body>
+</html>
